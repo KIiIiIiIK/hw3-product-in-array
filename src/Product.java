@@ -18,6 +18,10 @@ public class Product {
         this.category = category;
     }
 
+    public Category getCategory() {return category;}
+    public Double getPrice() {return price;}
+    public String getName() {return name;}
+
     public String toString() {
         return name + price + description + category;}
 }
